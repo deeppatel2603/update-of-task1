@@ -20,7 +20,7 @@ if ("open" in x) and ("youtube" in x) or ("play song" in x):
     url = "https://www.youtube.com"
     webbrowser.get(browser_path).open(url)
 if "what "in x or"can" in x and "you do" in x:
-    print("1.run chrome\n","2.run notepad\n","run youtube","4.run media player\n","5.read file\n","6.write file\n","6.copy file\n")
+    print("1.run chrome\n","2.run notepad\n","3.run youtube\n","4.run media player\n","5.read file\n","6.write file\n","6.copy file\n")
 if  ("chrome"in x) or ("google"in x):
     os.system("chrome")
     
